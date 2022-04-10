@@ -6,5 +6,62 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#2E358B</color>
+    <color name="colorPrimaryDark">#2A2E43</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_black">#0B0C0C</color>
+    <color name="white_shade">#E0E0E0</color>
+    <color name="white_shade_status_bar">#797B83</color>
+    <color name="nav_drawer_background_color">#F8F8F8</color>
+    <color name="text_gray">#3D404B</color>
+    <color name="border_gray">#BFC1C3</color>
+    <color name="text_gray_bright">#78849E</color>
+    <color name="body_text_color">#767576</color>
+    <color name="item_selected">#474B5C</color>
+    <color name="title_text_color">#2E358B</color>
+    <color name="title_text_color_gray">#454F63</color>
+    <color name="title_text_color_gray_2">#6F777B</color>
+    <color name="bill_color">#28A197</color>
+    <color name="red">#FF0000</color>
+    <color name="delete">#DF3034</color>
+    <color name="green">#00823B</color>
+    <color name="attended_color">#0097A7</color>
+    <color name="not_attended_color">#E9346F</color>
+    <color name="pass_color">#00BBD3</color>
+    <color name="text_gray_light">#717171</color>
+    <color name="tab_sliding_color">#565535</color>
+    <color name="white_opacity">#ffffff</color>
+    <color name="layout_background_color">#F5F5F5</color>
+    <color name="app_vector_default_color">#3d404b</color>
+    <color name="status_bar_color_drawer_open">#212121</color>
+    <color name="dashboard">#b20097a7</color>
+    <color name="communication">#b23fb990</color>
+    <color name="leader_board">#b217a7d2</color>
+    <color name="navigation">#b2e8bbbb</color>
+    <color name="fail_color">#717171</color>
+    <color name="circular_shadow_color">#2a8af9</color>
+    <color name="seek_bar_background">#ababab</color>
+    <color name="seek_bar_progress">#ffb600</color>
+    <color name="blue_color">#1976D2</color>
+    <color name="light_blue_color">#7EB2E5</color>
+    <color name="birthday_color">#9CCC65</color>
+    <color name="marriage_color">#D8008D</color>
+    <color name="separator_line_color">#E0DEDE</color>
+    <color name="colorLightGray">#AAAAAA</color>
+    <color name="colorDarkGray">#73767E</color>
+    <color name="colorGrayLight">#F6F6F6</color>
+
+    <color name="set_complete">#0EC677</color>
+    <color name="set_partial">#F5AA00</color>
+    <color name="set_mandatory">#F50055</color>
+    <color name="set_optional">#AAAAAA</color>
+
+    <color name="right_answer">#0EC677</color>
+    <color name="answer">#1A237E</color>
+    <color name="wrong_answer">#F50055</color>
+
+    <color name="fab_menu">#005EA5</color>
+    <color name="fab_menu_text">#707070</color>
 </resources>

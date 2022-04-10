@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/drawable/border_gray_filled_white_rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/drawable/button_filled_shape.xml" value="0.1" />
+        <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/drawable/circle_border_green_solid_white.xml" value="0.1" />
+        <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/drawable/ic_arrow_down.xml" value="0.1435" />
+        <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/layout/activity_add_potential_client.xml" value="0.1921875" />
         <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/layout/activity_login.xml" value="0.1921875" />
         <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/layout/activity_main.xml" value="0.178125" />
+        <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/LoginUsingRetrofitApi/app/src/main/res/layout/menu_item_row.xml" value="0.1921875" />
       </map>
     </option>
   </component>

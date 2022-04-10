@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.followup.FollowUpFormActivity">
+
+        <RelativeLayout
+            android:id="@+id/toolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/drawer_icon"
+                android:padding="@dimen/std_margin_16"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/activity_name"
+                style="@style/Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/back"
+                android:paddingTop="@dimen/std_margin_16"
+                android:paddingBottom="@dimen/std_margin_16"
+                android:text="@string/add_potential_Client" />
+
+
+        </RelativeLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?actionBarSize">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    tools:context=".view.followup.AddPotentialClientActivity">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_asterisk_shape"
+                        android:drawablePadding="5dp"
+                        android:text="গ্রাহকের নাম"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14" />
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/std_dimen_48"
+                        android:layout_marginTop="@dimen/std_dimen_8"
+                        android:layout_marginBottom="@dimen/std_dimen_8"
+                        android:background="@drawable/border_gray_filled_white_rectangle"
+                        android:gravity="center|start"
+                        android:hint="গ্রাহকের নাম"
+                        android:paddingStart="@dimen/std_dimen_8"
+                        android:paddingEnd="@dimen/std_dimen_8"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14"
+                        tools:ignore="LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_asterisk_shape"
+                        android:drawablePadding="5dp"
+                        android:text="ফোন নং"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14" />
+
+                    <EditText
+                        android:id="@+id/et_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/std_dimen_48"
+                        android:layout_marginTop="@dimen/std_dimen_8"
+                        android:layout_marginBottom="@dimen/std_dimen_8"
+                        android:background="@drawable/border_gray_filled_white_rectangle"
+                        android:gravity="center|start"
+                        android:hint="ফোন নং"
+                        android:inputType="phone"
+                        android:paddingStart="@dimen/std_dimen_8"
+                        android:paddingEnd="@dimen/std_dimen_8"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14"
+                        tools:ignore="LabelFor" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight=".5"
+
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableRight="@drawable/ic_asterisk_shape"
+                                android:drawablePadding="5dp"
+                                android:text="জেলা"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14" />
+
+                            <AutoCompleteTextView
+                                android:id="@+id/tv_zila"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/std_dimen_48"
+                                android:layout_marginTop="@dimen/std_dimen_8"
+                                android:layout_marginBottom="@dimen/std_dimen_8"
+                                android:background="@drawable/border_gray_filled_white_rectangle"
+                                android:drawableEnd="@drawable/ic_arrow_down"
+                                android:focusable="false"
+                                android:gravity="center|start"
+                                android:hint="@string/choose_zilla"
+                                android:paddingStart="@dimen/std_dimen_8"
+                                android:paddingEnd="@dimen/std_dimen_8"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14"
+                                tools:ignore="LabelFor" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight=".5"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableRight="@drawable/ic_asterisk_shape"
+                                android:drawablePadding="5dp"
+                                android:text="উপজেলা"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14" />
+
+                            <AutoCompleteTextView
+                                android:id="@+id/tv_up_zilla"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/std_dimen_48"
+                                android:layout_marginTop="@dimen/std_dimen_8"
+                                android:layout_marginBottom="@dimen/std_dimen_8"
+                                android:background="@drawable/border_gray_filled_white_rectangle"
+                                android:drawableEnd="@drawable/ic_arrow_down"
+                                android:focusable="false"
+                                android:gravity="center|start"
+                                android:hint="@string/choose_up_zilla"
+                                android:paddingStart="@dimen/std_dimen_8"
+                                android:paddingEnd="@dimen/std_dimen_8"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14"
+                                tools:ignore="LabelFor" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight=".5"
+
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="থানা"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14" />
+
+                            <EditText
+                                android:id="@+id/tv_thana"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/std_dimen_48"
+                                android:layout_marginTop="@dimen/std_dimen_8"
+                                android:layout_marginBottom="@dimen/std_dimen_8"
+                                android:background="@drawable/border_gray_filled_white_rectangle"
+                                android:gravity="center|start"
+                                android:hint="@string/choose_thana"
+                                android:paddingStart="@dimen/std_dimen_8"
+                                android:paddingEnd="@dimen/std_dimen_8"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14"
+                                tools:ignore="LabelFor" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight=".5"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="পোস্ট"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14" />
+
+                            <EditText
+                                android:id="@+id/tv_post"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/std_dimen_48"
+                                android:layout_marginTop="@dimen/std_dimen_8"
+                                android:layout_marginBottom="@dimen/std_dimen_8"
+                                android:background="@drawable/border_gray_filled_white_rectangle"
+                                android:gravity="center|start"
+                                android:hint="@string/choose_post"
+                                android:paddingStart="@dimen/std_dimen_8"
+                                android:paddingEnd="@dimen/std_dimen_8"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_body_size_14"
+                                tools:ignore="LabelFor" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_asterisk_shape"
+                        android:drawablePadding="5dp"
+                        android:text="ঠিকানা"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14" />
+
+                    <EditText
+                        android:id="@+id/et_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/std_dimen_48"
+                        android:layout_marginTop="@dimen/std_dimen_8"
+                        android:layout_marginBottom="@dimen/std_dimen_8"
+                        android:background="@drawable/border_gray_filled_white_rectangle"
+                        android:gravity="center|start"
+                        android:hint="ঠিকানা"
+                        android:paddingStart="@dimen/std_dimen_8"
+                        android:paddingEnd="@dimen/std_dimen_8"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14"
+                        tools:ignore="LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_asterisk_shape"
+                        android:drawablePadding="5dp"
+                        android:text="প্রকল্পের নাম"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14" />
+
+                    <EditText
+                        android:id="@+id/et_project"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/std_dimen_48"
+                        android:layout_marginTop="@dimen/std_dimen_8"
+                        android:layout_marginBottom="@dimen/std_dimen_8"
+                        android:background="@drawable/border_gray_filled_white_rectangle"
+                        android:gravity="center|start"
+                        android:hint="প্রকল্পের নাম"
+                        android:paddingStart="@dimen/std_dimen_8"
+                        android:paddingEnd="@dimen/std_dimen_8"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14"
+                        tools:ignore="LabelFor" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="নোট"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14" />
+
+                    <EditText
+                        android:id="@+id/et_note"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/std_dimen_48"
+                        android:layout_marginTop="@dimen/std_dimen_8"
+                        android:layout_marginBottom="@dimen/std_dimen_8"
+                        android:background="@drawable/border_gray_filled_white_rectangle"
+                        android:gravity="center|start"
+                        android:hint="নোট"
+                        android:paddingStart="@dimen/std_dimen_8"
+                        android:paddingEnd="@dimen/std_dimen_8"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14"
+                        tools:ignore="LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        android:text="সংযুক্তি"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_body_size_14" />
+
+                    <RelativeLayout
+                        android:id="@+id/moneyReceipt"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/border_gray_filled_white_rectangle"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/close"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="@dimen/std_margin_4"
+                            android:src="@drawable/ic_close"
+                            android:visibility="gone"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_camera"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/textView_money_receipt_photo_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/please_click_here_to_add_photos_from_gallery" />
+
+                    </RelativeLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="@dimen/std_margin_16"
+                        android:layout_marginTop="@dimen/std_dimen_8"
+                        android:layout_marginBottom="50dp"
+                        android:background="@drawable/rectangle_curve"
+                        android:backgroundTint="@color/fab_menu"
+                        android:text="@string/submit"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_body_size_14" />
+                </LinearLayout>
+            </ScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

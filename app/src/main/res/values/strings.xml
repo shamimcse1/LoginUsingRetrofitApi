@@ -1,3 +1,362 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">LoginUsingRetrofitApi</string>
+    <string name="drawer_icon" tools:ignore="MissingTranslation">Drawer Icon</string>
+    <string name="drop_down_icon">Drop Down Icon</string>
+    <string name="dialog_close_icon">Close</string>
+    <string name="app_name_label">Sajida Field Force</string>
+    <string name="notification_icon">Notifications</string>
+    <string name="demo_title">Marketing Department</string>
+    <string name="demo_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ipsum dolor sit amet</string>
+    <string name="copyright">Appinion BD Limited All Rights Reserved.</string>
+    <string name="login_logo_tobe_changed_with_svg">login_logo_tobe_changed_with_svg</string>
+    <string name="userid">ইউসার আইডি</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="login">লগ ইন</string>
+    <string name="success">সাফল্য</string>
+    <string name="alert">সতর্ক</string>
+    <string name="back_bn">পুনরায়</string>
+    <string name="back_en">Back</string>
+    <string name="created">তথ্য সফলভাবে জমা দেওয়া হয়েছে</string>
+    <string name="auto_submit_message">আপনার তথ্য স্বয়ংক্রিয় ভাবে জমা দিতে চান !</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="enter_amount">পরিমান লিখুন</string>
+
+    <string name="planned">পরিকল্পিত</string>
+    <string name="unplanned">অপরিকল্পিত</string>
+
+    <string name="qc">গুণগত মান</string>
+    <string name="survey">জরিপ</string>
+
+    <string name="client_visit">গ্রাহক পরিদর্শন</string>
+    <string name="center_visit">কেন্দ্র পরিদর্শন</string>
+    <string name="visit">পরিদর্শন</string>
+    <string name="not_visited">পরিদর্শন হয়নি</string>
+    <string name="not_visit">নট ভিসিট</string>
+    <string name="history">ইতিবৃত্তি</string>
+    <string name="home">হোম</string>
+    <string name="schedules">সময়সূচী</string>
+    <string name="knowledge_management">জ্ঞান ভাণ্ডার</string>
+    <string name="testing_center">টেস্টিং সেন্টার</string>
+    <string name="shop_incentive">শপ ও ইনসেন্টিভ</string>
+    <string name="communication">কমিউনিকেশন</string>
+    <string name="ta_da">ভ্রমণ/দৈনিক ভাতা</string>
+    <string name="register">রেজিস্টার</string>
+    <string name="branch_center">শাখা এবং কেন্দ্র</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="branch_center_visit">শাখা পরিদর্শন</string>
+    <string name="change_password">পাসওয়ার্ড পরিবর্তন</string>
+    <string name="log_out">লগ আউট</string>
+    <string name="version">ভার্সন ১.০</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="create_new_plan">নতুন পরিকল্পনা তৈরি করুন</string>
+    <string name="create_new_post">নতুন পোস্ট তৈরি করুন</string>
+    <string name="choose_center">কেন্দ্র নির্বাচন করুন</string>
+    <string name="choose_branch">শাখা নির্বাচন করুন</string>
+    <string name="choose_center_branch">কেন্দ্র/ শাখা নির্বাচন করুন</string>
+    <string name="choose_date">তারিখ নির্বাচন করুন</string>
+    <string name="choose_time">সময় নির্বাচন করুন</string>
+    <string name="choose_zilla">জেলা নির্বাচন করুন</string>
+    <string name="choose_up_zilla">উপজেলা নির্বাচন করুন</string>
+    <string name="choose_thana">থানা নির্বাচন করুন</string>
+    <string name="choose_post">পোস্ট নির্বাচন করুন</string>
+
+    <string name="id_label">সাজেদা আইডি:</string>
+    <string name="designation_label">পদবি: </string>
+    <string name="branchCode_label">শাখা কোড: </string>
+    <string name="branchName_label">শাখা নাম: </string>
+    <string name="program_label">কার্যক্রম: </string>
+    <string name="point_label">আমার পয়েন্ট:</string>
+    <string name="current_point_label">বর্তমান পয়েন্ট:</string>
+    <string name="total_earned_label">সর্বমোট অর্জন:</string>
+    <string name="total_redeemed_label">সর্বমোট ব্যবহৃত:</string>
+    <string name="visit_date_label">পরিদর্শনের তারিখ:</string>
+    <string name="visit_time_label">পরিদর্শনের সময়:</string>
+    <string name="visit_type_label">পরিদর্শন নমুনা:</string>
+    <string name="contact_no_label">যোগাযোগের নম্বর:</string>
+    <string name="end_date_label">শেষ তারিখ</string>
+    <string name="last_update_label">সর্বশেষ আপডেট :</string>
+    <string name="total_set_label">মোট সেট </string>
+    <string name="complete_set_label">% সম্পূর্ণ হয়েছে</string>
+
+
+    <string name="demo_name">Mr. Xyz</string>
+    <string name="demo_id">123456</string>
+    <string name="demo_number">00</string>
+    <string name="demo_region">Dhaka</string>
+    <string name="demo_point">1000</string>
+    <string name="demo_total_earned">1060</string>
+    <string name="demo_total_redeemed">60</string>
+    <string name="demo_date">04, April 2018</string>
+    <string name="demo_month">January</string>
+    <string name="demo_center">Purbo Sutarpara</string>
+    <string name="demo_visit_date">19-09-2019</string>
+    <string name="demo_visit_time">11:30 AM</string>
+    <string name="demo_visit_type">Planned</string>
+    <string name="contact_no_demo">01711111111</string>
+    <string name="demo_tag">Branch</string>
+    <string name="demo_total_set">0</string>
+    <string name="demo_total_complete_set">0</string>
+
+    <string name="demo_set">সেট ০০</string>
+    <string name="demo_total_question">মোট প্রশ্ন ০০</string>
+    <string name="demo_total_answer">মোট উত্তর ০০</string>
+    <string name="demo_total_mark">মোট মান ০০</string>
+    <string name="demo_obtained_mark">প্রাপ্ত মান ০০</string>
+    <string name="demo_set_description">লিনিকের রুম পরিষ্কার-পরিচ্ছন্ন, ডিসপ্লে বোর্ড নিয়মানুযায়ী আপডেট এবং ফাইল, রেজিস্টারগুলো সাজানো-গোছান।</string>
+    <string name="demo_label">*</string>
+
+    <string name="previous">পূর্ববর্তী</string>
+    <string name="monitoring">পর্যবেক্ষণ শিট</string>
+    <string name="next">পরবর্তী</string>
+    <string name="comment">মন্তব্য</string>
+    <string name="capture_image">ছবি নির্বাচিত করুন</string>
+
+    <string name="old_password">পুরাতন পাসওয়ার্ড</string>
+    <string name="new_password">নতুন পাসওয়ার্ড</string>
+    <string name="retype_new_password">নতুন পাসওয়ার্ড পুনরায় লিখুন</string>
+    <string name="update">আপডেট</string>
+    <string name="update_en">Update</string>
+    <string name="submit">জমা দিন</string>
+    <string name="n_a">প্রযোজ্য নয়</string>
+    <string name="add_image">ছবি সংযুক্ত করুন</string>
+    <string name="create">তৈরি করুন</string>
+    <string name="retry">পুনরায় চেষ্টা করুন</string>
+    <string name="check_location">ঠিকানা অনুসন্ধান করছে…</string>
+    <string name="biborton">বিবর্তন</string>
+    <string name="suchona">সূচনা</string>
+    <string name="plan_data_not_found">কোনও পরিকল্পনার ডেটা পাওয়া যায় নি!</string>
+    <string name="change_password_title">পাসওয়ার্ড পরিবর্তন</string>
+    <string name="please_wait">দয়া করে অপেক্ষা করুন!</string>
+    <string name="sort_and_filter">Sort and Filter</string>
+    <string name="apply">APPLY</string>
+    <string name="reset">RESET</string>
+    <string name="select_region">Select Region</string>
+    <string name="select_area">Select Area</string>
+    <string name="select_branch">Select Branch</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="changes_discard">All changes will be discard!</string>
+    <string name="location_not_match">Location did not match!</string>
+    <string name="location_settings_message">Your Locations Settings is set to OFF.\n Please Enable Location and set High Accuracy in Location Mode to use this application</string>
+    <string name="library">লাইব্রেরি</string>
+    <string name="circular">সার্কুলার</string>
+    <string name="favorite_image">Favorite Image</string>
+    <string name="lock_image">Lock Image</string>
+    <string name="detail_information">বিস্তারিত তথ্য</string>
+    <string name="detail">বিস্তারিত</string>
+    <string name="misc">বিবিধ</string>
+    <string name="microFinance">মাইক্রোফিনান্স</string>
+    <string name="banner_image">Banner Image</string>
+    <string name="demo_long_string">Description is the pattern of narrative development that aims to make vivid a place, object. character, or group. Description is one of four rhetorical modes (also known as modes of discourse), along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes. Fiction-writing also has modes: action, exposition, description, dialogue, summary, and transition. Author Peter Selgin refers to methods, including action, dialogue, thoughts, summary, scenes, and description. Currently, there is no consensus within the writing community regarding the number and composition of fiction-writing modes and their uses.
+Description is the fiction-writing mode for transmitting a mental image of the particulars of a story. Together with dialogue, narration, exposition, and summarization, description is one of the most widely recognized of the fiction-writing modes. As stated in Writing from A to Z, edited by Kirk Polking, description is more than the amassing of details; it is bringing something to life by carefully choosing and arranging words and phrases to produce the desired effect. The most appropriate and effective techniques for presenting description are a matter of ongoing discussion among writers and writing coaches.</string>
+    <string name="question_or_comment">প্রশ্ন/মন্তব্য</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="image">Image</string>
+    <string name="pdf">PDF</string>
+    <string name="send">Send</string>
+    <string name="type_here_160_charecters">Type Here...(160 charecters)</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="forum">ফোরাম</string>
+    <string name="newsletter">নিউজলেটার</string>
+    <string name="mandatory">বাধ্যতামূলক</string>
+    <string name="general">সাধারণ</string>
+    <string name="demo_test_time">03 min</string>
+    <string name="demo_test_point">06 PTS</string>
+    <string name="demo_test_date">20, Apr 19</string>
+    <string name="start">Start</string>
+    <string name="top_performer">Top Performer</string>
+    <string name="top">Top</string>
+    <string name="sajida_id_label">Sajida Id :</string>
+    <string name="demo_point_number">512</string>
+    <string name="measured_in_35_tests">Measured in 35 tests</string>
+    <string name="_1st">1st</string>
+    <string name="leaderboard">লিডারবোর্ডে</string>
+    <string name="_2nd">2nd</string>
+    <string name="test_name">Test Name</string>
+    <string name="publication_date">Publication Date :</string>
+    <string name="passed">Pass</string>
+    <string name="search">Search</string>
+    <string name="resource_list">Resource List</string>
+    <string name="web_link">Web Link</string>
+    <string name="xlsx">Xlsx</string>
+    <string name="title">Title</string>
+    <string name="title_with_max">Title (max 100 letter)</string>
+    <string name="post_question">Post/Question</string>
+    <string name="post_question_with_max">Post/Question (max 200 letter)</string>
+    <string name="finish">Finished</string>
+    <string name="no_excel_opener_message">No Application Available to View Excel</string>
+    <string name="see_more">See more</string>
+    <string name="see_less">See less</string>
+    <string name="submitted_bills">Submitted Bills</string>
+    <string name="rejected_bills">Sent Back Bills</string>
+    <string name="monthly_statement">Monthly Statement</string>
+    <string name="my_wallets">My Wallets</string>
+    <string name="my_policy">My Policy</string>
+    <string name="accounts_menu">Accounts Menu</string>
+    <string name="draft_0">Draft(0)</string>
+    <string name="add_to_queue">Add to Queue</string>
+    <string name="move_to_draft">Move To Draft</string>
+    <string name="edit">Edit</string>
+    <string name="demo_total_bill_0">Total Bill (0)</string>
+    <string name="demo_total_voucher_0">Total Voucher (0)</string>
+    <string name="demo_amount">BDT 0</string>
+    <string name="queue">Queue</string>
+    <string name="clear_queue">Clear Queue</string>
+    <string name="continue_checkout">Continue Checkout</string>
+    <string name="note">নোট</string>
+    <string name="heads_of_accounts">Heads of Accounts</string>
+    <string name="submit_for_approval">Submit for Approval</string>
+    <string name="submitted_more_alart_message">You have been submitted 3 times</string>
+    <string name="result_not_published">Test result not published !</string>
+    <string name="transport_bill">Transport Bill</string>
+    <string name="billing_date">Billing Date</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="transport_type">Transport Type</string>
+    <string name="purpose">Purpose</string>
+    <string name="amount">Amount</string>
+    <string name="policy">Policy</string>
+    <string name="custom">Custom</string>
+    <string name="save_as_draft">Save as Draft</string>
+    <string name="food_bill">Food Bill</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="hotel_bill">Hotel Bill</string>
+    <string name="check_out_date">Check-Out Date</string>
+    <string name="check_in_time">Check-In Time</string>
+    <string name="check_out_time">Check-Out Time</string>
+    <string name="hotel_name_address"><![CDATA[Hotel Name & Address]]></string>
+    <string name="check_in_date">Check-In Date</string>
+    <string name="night_stay_allowance">Night Stay Allowance</string>
+    <string name="action">Action</string>
+    <string name="report">Report</string>
+    <string name="delete">Delete</string>
+    <string name="update_hotel_voucher">Update Hotel Voucher</string>
+    <string name="update_food_voucher">Update Food Voucher</string>
+    <string name="update_night_stay_voucher">Update Night Stay Voucher</string>
+    <string name="select_date">তারিখ নির্বাচন করুন</string>
+    <string name="select_purpose">Select Purpose</string>
+    <string name="select_time">Select Time</string>
+    <string name="update_transport_voucher">Update Transport Voucher</string>
+    <string name="view">View</string>
+    <string name="bill_approved">Bill Approved</string>
+    <string name="pending_for_approval">Pending for Approval</string>
+    <string name="note_max_50_letter">Note (max 50 letter)</string>
+    <string name="please_click_here_to_add_photos_from_gallery">গ্যালারি থেকে ছবি যোগ করতে এখানে ক্লিক করুন</string>
+    <string name="add_money_receipt_attachment">Add Money Receipt (Attachment)</string>
+    <string name="add_contact_number">Add contact number</string>
+    <string name="paid">Paid</string>
+    <string name="exam_attended">Exam Attended</string>
+    <string name="attended">Attended</string>
+    <string name="not_attended">Not Attended</string>
+    <string name="performance_stats">Performance Stats</string>
+    <string name="pass">Pass</string>
+    <string name="fail">Fail</string>
+    <string name="exams_body_label">It is encouraged to regularly attend the exams to gain point.</string>
+    <string name="performance_body_label">An overview of compiled user performance. Comes in handy for application user to performance.</string>
+
+    <string name="location_access_title">Location Access</string>
+    <string name="location_access_message">Sajida Field Force has been using your location. This app can use your current location.</string>
+    <string name="follow_up">ফলোআপ</string>
+    <string name="pending_loan">বকেয়া ঋণ ফলোআপ</string>
+    <string name="current_loan">চলতি ঋণ ফলোআপ</string>
+    <string name="drop_out">ড্রপ আউট</string>
+    <string name="loan_free">লোন ফ্রি</string>
+    <string name="new_loan">নতুন ঋণ ফলোআপ</string>
+    <string name="potential_client">Add potential client</string>
+    <string name="potential_client_list">গ্রাহক সার্ভে</string>
+    <string name="add_potential_Client">গ্রাহক সার্ভে ফর্ম</string>
+    <string name="all">সমস্ত তথ্য দেখুন</string>
+    <string name="recovery_date">সাম্ভাব্য আদায় তারিখ</string>
+    <string name="follow_up_sub">ফলোআপের বিষয়</string>
+    <string name="follow_type">ফলোআপের ধরন</string>
+    <string name="follow_number">ফলোআপের সংখ্যা</string>
+    <string name="loan_amount">ঋণ বিতরণ পরিমাণ</string>
+    <string name="loan_disburse_date">ঋণ বিতরণ তারিখ</string>
+    <string name="due_amount">বকেয়া পরিমাণ</string>
+    <string name="recovery_amount">সাম্ভাব্য আদায় পরিমাণ</string>
+    <string name="actual_date">প্রকৃত আদায় তারিখ</string>
+    <string name="actual_amount">প্রকৃত আদায় পরিমাণ</string>
+    <string name="follow_up_medium">ফলোআপের মাধ্যম</string>
+    <string name="attachment">সংযুক্তি</string>
+    <string name="next_followup">পরবর্তী ফলোআপ</string>
+    <string name="follow_up_number">ফলোআপ সংখ্যা</string>
+    <string name="client_name">গ্রাহকের নাম</string>
+    <string name="phone_number">ফোন নং</string>
+    <string name="date">তারিখ</string>
+    <string name="client_id">গ্রাহকের আইডি</string>
+    <string name="history_detail">বিস্তারিত ইতিবৃত্তি</string>
+    <string name="monitor_officer">মনিটরিং অফিসার:</string>
+    <string name="start_date">মনিটরিং শুরুর তারিখ:</string>
+    <string name="monitor_end_date">মনিটরিং শেষের তারিখ:</string>
+    <string name="schedule_status">সিডিউল স্ট্যাটাস:</string>
+    <string name="bm_view">ব্রাঞ্চ ম্যানেজার ভিউ:</string>
+    <string name="monitor">মনিটরিং সূচি</string>
+    <string name="seen">দেখা</string>
+    <string name="total_days">মোট দিন</string>
+    <string name="risk_cat">ঝুঁকি</string>
+    <string name="round">মনিটরিং রাউন্ড</string>
+    <string name="last_date_monitor">সর্বশেষ মনিটরিং তারিখ</string>
+    <string name="meeting_schedule">মিটিং সূচি</string>
+    <string name="new_meeting">নতুন মিটিং</string>
+    <string name="Agenda">1. Lorem ipsum dolor sit amet, consectetur adipiscing elit\n2. Phasellus tristique volutpat ex, vel congue purus auctor ac.\n3.Sed lacinia nunc sapien, in mattis orci pellentesque ut.\n4. Curabitur sagittis egestas posuere. In vitae lacinia enim. Nunc iaculis purus sed facilisis rhoncus.\n5. Nam porttitor volutpat risus, quis egestas odio scelerisque at.</string>
+    <string name="meeting_details">Meeting Details</string>
+    <string name="meeting_result">Meeting Result</string>
+
+    <string-array name="demo">
+        <item>Select</item>
+        <item>Amount</item>
+        <item>Percentage</item>
+        <item>Partial Delivery</item>
+        <item>Full Delivery</item>
+        <item>Amount</item>
+        <item>Percentage</item>
+        <item>Partial Delivery</item>
+        <item>Full Delivery</item>
+        <item>Amount</item>
+        <item>Percentage</item>
+        <item>Partial Delivery</item>
+        <item>Full Delivery</item>
+        <item>Amount</item>
+        <item>Percentage</item>
+        <item>Partial Delivery</item>
+        <item>Full Delivery</item>
+    </string-array>
+
+    <string-array name="purpose">
+        <item>Select</item>
+        <item>General</item>
+        <item>Site visit</item>
+        <item>Inspection</item>
+        <item>Audit</item>
+    </string-array>
+
+    <string-array name="follow_type_number">
+        <item>১ম ফলোআপ</item>
+        <item>২য় ফলোআপ</item>
+        <item>৩য় ফলোআপ</item>
+
+    </string-array>
+
+    <string-array name="follow_type">
+        <item>চলতি ঋণ ফলোআপ</item>
+        <item>বকেয়া ঋণ ফলোআপ</item>
+        <item>ড্রপ আউট</item>
+        <item>লোন ফ্রি</item>
+    </string-array>
+
+    <string-array name="transport_type">
+        <item>Select</item>
+        <item>Rickshaw/Auto</item>
+        <item>Ride-sharing Service</item>
+        <item>Local Bus</item>
+        <item>Intercity Bus</item>
+        <item>Train/Metro</item>
+        <item>Launch/Ship</item>
+        <item>Airplane</item>
+    </string-array>
 </resources>

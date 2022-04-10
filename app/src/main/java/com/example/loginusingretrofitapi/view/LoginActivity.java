@@ -51,7 +51,8 @@ public class LoginActivity extends AppCompatActivity {
 
                         Toast.makeText(LoginActivity.this, "Success", Toast.LENGTH_SHORT).show();
                         progressDialog.dismiss();
-                        sharedPreference.setToken(USER_INFO,loginAuth.getActualData().getToken());
+                        String token = "Bearer " + loginAuth.getActualData().getToken();
+                        sharedPreference.setToken(USER_INFO,token);
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(intent);
                         break;
